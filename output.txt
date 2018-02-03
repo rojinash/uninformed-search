@@ -1,0 +1,54 @@
+Script started on Sat 03 Feb 2018 02:34:53 PM CST
+sharmaro@taussky:search$      mzscheme -l lang/plt-pretty-big-text.ss -f driver.sscm [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C     mzscheme -l lang/plt-pretty-big-text.ss -f driver.sscm 
+Running test1 for jump using DFS
+((1 1 1) 4)Length of path:3
+Expansions:4
+------------------------------------
+Running test1 for jump using BFS
+((1 1 1) 4)Length of path:3
+Expansions:4
+------------------------------------
+Running test1 for jump using DLS
+((1 1 1) 4)Length of path:3
+Expansions:4
+------------------------------------
+Running test1 for jump using IDS
+((1 1 1) 10)Length of path:3
+Expansions:10
+------------------------------------
+Running test2 for jump using DFS
+((1 2 1 1) 6)Length of path:4
+Expansions:6
+------------------------------------
+Running test2 for jump using BFS
+((1 2 1 1) 10)Length of path:4
+Expansions:10
+------------------------------------
+Running test2 for jump using DLS
+((1 2 1 1) 6)Length of path:4
+Expansions:6
+------------------------------------
+Running test2 for jump using IDS
+((1 2 1 1) 23)Length of path:4
+Expansions:23
+------------------------------------
+Running test3 for 8puzzle using DFS
+((left) 1)Length of path:1
+Expansions:1
+------------------------------------
+Running test3 for 8puzzle using BFS
+((up) 2)Length of path:1
+Expansions:2
+------------------------------------
+Running test3 for 8puzzle using DLS
+((left) 1)Length of path:1
+Expansions:1
+------------------------------------
+Running test3 for 8puzzle using IDS
+((left) 1)Length of path:1
+Expansions:1
+------------------------------------
+sharmaro@taussky:search$ cd[K[Kexit
+
+Script done on Sat 03 Feb 2018 02:36:21 PM CST
